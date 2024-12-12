@@ -51,9 +51,7 @@ fetchBtn.addEventListener("click", async (e) => {
         if (page >= maxPage) {
             iziToast.info({
                 title: "Hint",
-                message: "We're sorry, but you've reached the end of search results.",
-                
-        
+                message: "We're sorry, but you've reached the end of search results.",     
             });
             fetchBtn.style.display = "none"
             return
